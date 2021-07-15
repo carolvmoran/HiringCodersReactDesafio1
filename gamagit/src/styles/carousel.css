@@ -1,0 +1,64 @@
+/* Primeiro Carousel  */
+.carouselMain {
+    width: 90%;
+    margin-bottom: 72px;
+    padding: 0;
+}
+/* Imagems */
+.carouselMain img {
+    width: 90%;
+    left: 0px;
+}
+
+.carousel1 {
+    position: relative;
+}
+/* Setas  */
+.carouselMain .slick-next.slick-arrow {
+    position: absolute;
+    left: 95%;
+    top: 35%;
+    transform: translate(0, -50%) rotate(-90deg);
+}
+
+.carouselMain .slick-prev.slick-arrow {
+    position: absolute;
+    z-index: 1000;
+    top: 59.5%;
+    left: 95%;
+    transform: translate(0, -50%) rotate(-90deg);
+}
+/* Dots  */
+.carouselMain .slick-dots {
+    position: absolute;
+    left: 97%;
+    bottom: 50% !important;
+    /* transform: rotate(90deg); */
+    width: auto !important;
+    list-style: none;
+}
+/* Segundo Carousel  */
+.carousel2 {
+    margin-bottom: 70px;
+}
+/* Imagems  */
+img.imgInsta {
+    width: 218px;
+}
+/* Setas */
+button.slick-arrow::before {
+    color: #000;
+}
+.carousel2 .slick-next.slick-arrow {
+    z-index: 1001;
+    top: 107%;
+    right: 430px;
+}
+.carousel2 .slick-prev.slick-arrow {
+    z-index: 1001;
+    top: 107%;
+    left: 430px;
+}
+
+
+
